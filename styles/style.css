@@ -5,8 +5,7 @@
     padding: 92px 50px 96px;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    font-size: 18px;   
-    
+    font-size: 18px;    
     text-underline-offset: 5px;
 }
 
@@ -14,7 +13,6 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    font-size: 18px;
     gap: 30px;
     list-style: circle;  
 }
@@ -44,10 +42,8 @@
     display: flex;
     flex-direction: column;
     line-height: 24.3px;
-    justify-self: end;
-    
+    justify-self: end; 
     font-style: normal;
-    line-height: 24px;
 }
 
 .header__address {
@@ -238,10 +234,11 @@
 .lots__look-more-link {
     display: block;
     color: #000;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 32px;
+    margin-left: 38px;
     font-weight: 400;
     font-size: 20px;
+    text-underline-offset: 5px;
 }
 
 .about {
@@ -259,14 +256,12 @@
 
 .about__text_column {
     margin-top: 136px;
-
 }
 
 .about__title {
    font-weight: 700;
    font-size: 40px;
-   text-transform: uppercase;
-   
+   text-transform: uppercase;  
 }
 
 .about__text {
@@ -274,8 +269,7 @@
     line-height: 120%;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    
+    gap: 24px;   
 }
 
 .about__logo {
@@ -290,6 +284,7 @@
   justify-content: center;
   box-sizing: border-box;
 }
+
 .about__logo-image {
     width: 62%;
     height: 62%;
@@ -300,7 +295,6 @@
 }
 
 .footer {
-    height: 955px;
     width: 1100px;
     margin-top: 180px;
     display: grid;
