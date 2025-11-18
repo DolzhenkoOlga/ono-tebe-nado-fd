@@ -5,12 +5,12 @@
     padding: 92px 50px 96px;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    font-size: 18px;
+    font-size: 18px;   
     
     text-underline-offset: 5px;
 }
 
-.header__links-list{
+.header__links-list {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -28,11 +28,11 @@
     list-style: none;
 }
 
-.header__active .header__link{
+.header__active .header__link {
     text-decoration: none;
 }
 
-.header__logo-image{
+.header__logo-image {
     display: block;
     width: 148px;
     height: 105px;
@@ -52,11 +52,9 @@
 
 .header__address {
     max-width: 240px;
-
 }
 
 .cover {
-    
     display: flex;
     flex-direction: column;
     min-height: 757px;
@@ -97,12 +95,11 @@
     display: block;
 }
 
-.aligned-text_center{
-    
+.aligned-text_center {   
     text-align: center;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     align-self: flex-end; 
     text-align: right;
 }
@@ -111,7 +108,7 @@
     letter-spacing: 0;
 }
 
-.cover__description{
+.cover__description {
     height: 51px;
     margin: 106px 50px 50px;
     display: flex;
@@ -120,8 +117,9 @@
     
 }
 
-.cover__description-text{
+.cover__description-text {
     display: block;
+    padding-bottom: 10px;
     color:#fff;
     line-height: 127%;
     font-weight: 400;
@@ -131,11 +129,12 @@
     
 }
 
-.bet-button{
+.bet-button {
     display: flex;
     align-items: center;
     height: 51px;
     padding: 13px 31px;
+    margin-bottom: 10px;
     color: #fff;
     border: 1px solid;
     background-color: Transparent;
@@ -146,7 +145,7 @@
     margin-left: auto;
 }
 
-.lots{
+.lots {
     height: 723px;
     width: 1052px;  
     gap: 25px;
@@ -155,7 +154,7 @@
 
 }
 
-.lots__heading{
+.lots__heading {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -164,14 +163,14 @@
     margin-left: 40px;
 }
 
-.card_type_film{
+.card_type_film {
     height: 100%;
     background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.card_type_book{
+.card_type_book {
     height: 100%;
     background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
@@ -230,7 +229,6 @@
     line-height: 120%;
     color: #fff;
     margin-bottom: 48px;
-
 }
 
 .card-link {
@@ -244,7 +242,6 @@
     margin-left: 30px;
     font-weight: 400;
     font-size: 20px;
-
 }
 
 .about {
@@ -311,9 +308,6 @@
     text-underline-offset: 5px;
 }
 
-
-
-
  .footer__menu {
     display: flex;
     justify-content: center;
@@ -336,6 +330,7 @@
     flex-direction: column;
     justify-items: flex-start;
     margin-left: 50px;
+    font-size: 18px;
 }
 
 .footer__social-list {
