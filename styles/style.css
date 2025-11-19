@@ -180,7 +180,7 @@
 }
 
 .lots__card-list-item {
-  height: 596px;
+  min-height: 596px;
   max-width: 334px;
 }
 
