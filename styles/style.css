@@ -26,7 +26,7 @@
 }
 
 .link-active .header__link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .header__logo-image {
@@ -44,7 +44,7 @@
   font-style: normal;
 }
 
-.header__address {
+.address-block__header {
   max-width: 240px;
 }
 
